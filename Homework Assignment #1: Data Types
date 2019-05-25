@@ -1,0 +1,54 @@
+/*
+Homework Assignment #1: Data Types
+
+A task for understanding JS data types. A lot of information about one of my favorite song.
+I use all of JS data types to say a story about the song.
+*/
+
+// data type - string
+let group = 'Dead Can Dance';
+let genre = 'Neo Medieval';
+let album = 'Into the Labyrinth';
+let favoriteSong = 'Yulunga (Spirit Dance)';
+let albumTheme = 'Minotaur`s myth';
+let previousAlbum = 'Aion';
+let nextAlbum = 'Spiritchaser';
+
+// data type - number
+let year = 1993;
+let numberOfSongs = 11;
+
+// data type - object
+let favSongDuration = {
+    minutes: 6,
+    seconds: 56
+};
+
+// data type - array
+let listOfAllSongs = [
+    'Yulunga (Spirit Dance)',
+    'The Ubiquitous Mr. Lovegrove',
+    'The Wind That Shakes The Barley',
+    'The Carnival is Over',
+    'Ariadne',
+    'Saldek',
+    'Towards the Within',
+    'Tell Me About The Forest (You Once Called Home)',
+    'The Spider`s Stratagem',
+    'Emmeleia',
+    'How Fortunate The Man With None'
+];
+// data type - boolean
+let highPopular = false;
+
+// data type - undefined
+let label;
+
+// data type - null
+let producer = null;
+
+
+
+
+
+
