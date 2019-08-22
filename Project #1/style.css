@@ -1,0 +1,164 @@
+#field {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid #fff;
+    box-shadow: 2px 3px 3px #ccc;
+    min-height: 150px;
+    height: auto;
+}
+.buttons {
+    width: 240px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #cccfff;
+    box-shadow: 2px 3px 5px #cccfff;
+    padding: 10px;
+}
+#account_settings {
+    display: none;
+    position: relative;
+    top: -60px;
+    left: 93%;
+
+}
+button {
+    border: 1px solid #cccfff;
+    padding: 5px 8px;
+}
+button#logout {
+    display: none;
+}
+#form,#form2 {
+    display: none;
+}
+#sign-up {
+    margin-right: 10px;
+}
+.block {
+    margin: 10px 25px;
+    border: 1px solid #000;
+    width: 20%;
+    padding: 8px 12px;
+}
+:required {
+    background-color: rgb(240,128,128,0.5);
+}
+input:required:focus {
+    outline: 1px solid rgb(240,128,128,0.8);
+}
+input:required:hover {
+    opacity: 1;
+}
+input:valid {
+    background-color: lightgreen;
+    outline: 1px solid lightgreen;
+}
+#dashboard {
+    display: none;
+    height: auto;
+    margin: 10px;
+}
+
+#dashboard #lists {
+    width: 90%;
+    min-height: 100px;
+    height: auto;
+    margin: 10px auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px dashed #000;
+    border-radius: 10px;
+}
+#dashboard #lists .status {
+    display: flex;
+    justify-content: flex-start;
+}
+#dashboard #lists article {
+    width: 30%;
+    height: 300px;
+    background-color: #cccfff;
+    border: 1px solid lightgreen;
+    box-shadow: 2px 3px 4px #ccc;
+    margin-top: 10px;
+    transition: 500ms;
+    font-family: 'Lacquer', sans-serif;
+    border-radius: 10px;
+}
+#dashboard #lists article:hover {
+    border: 1px solid green;
+}
+#dashboard #lists article .status {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    width: 100%;
+}
+#dashboard #lists article .delete {
+//width: 20px;
+//height: 20px;
+    font-size: 20px;
+//display: block;
+    outline: 1px solid #000;
+    cursor: pointer;
+}
+#dashboard #lists article .done {
+    width: 20px;
+    height: 20px;
+    font-size: 24px;
+//display: block;
+    border: 1px solid #000;
+    cursor: pointer;
+//margin: 5px 0 0 5px;
+
+}
+#dashboard #lists article h3 {
+    border-bottom: 1px solid black;
+    min-width: 50%;
+    width: auto;
+    margin: 10px auto;
+    text-align: center;
+    color: coral;
+}
+#dashboard #lists article textarea {
+    margin: 10px 20px;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 14px;
+    max-width: 90%;
+    min-width: 50%;
+    max-height: 180px;
+    min-height: 75px;
+}
+#dashboard #lists article p {
+    margin: 0px 20px;
+}
+#edit {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    display: none;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px dotted #000;
+    width: 50%;
+    border-radius: 10px;
+}
+#close {
+    cursor: pointer;
+    border: 1px dashed #000;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    left: 95%;
+}
